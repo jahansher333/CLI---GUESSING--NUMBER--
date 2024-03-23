@@ -1,5 +1,7 @@
+#! usr/bin/env node
 import inquirer from "inquirer";
 
+console.log("Welcom to the Game");
 
 const randomNumber = Math.floor(Math.random() * 10 + 1 );
   
@@ -19,3 +21,4 @@ const answer = await inquirer.prompt([
   }else{
     console.log("Lose Game , You Are Wroung Number");
   }
+  
